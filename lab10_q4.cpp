@@ -374,12 +374,12 @@ int main()
   cout<<"The point p2 is ";p2.print( p2.Get_X(), p2.Get_Y());
 
 //Lab 7 Exercises 4.2, 4.3. Testing of the class Rectangle goes here:  
-
-  Rectangle rect1rect2(pA1,pC1);
+ Point pA1(2,1);
+  Point pC1(4,8);
+  Rectangle rect1,rect2(pA1,pC1);
   rect1.print();
   rect1.area();
-  Point pA1(2,1);
-  Point pC1(4,8); 
+  
   rect2.print();
   rect2.area();
   return 0;
